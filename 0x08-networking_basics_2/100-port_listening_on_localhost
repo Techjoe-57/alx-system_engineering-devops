@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Bash script that listens on
+#port 98 on localhost
+
+#netstat -l localhost | grep -w ':98'
+nc -l localhost 98
